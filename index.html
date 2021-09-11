@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pagedesign</title>
+	<script type="text/javascript" src="./index.js"></script>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav>
+  	<a class="active" href="#" onclick="setActive('home')" id="homeX">HOME</a>
+  	<a href="#" onclick="setActive('contact')" id="contactX">CONTACT</a>
+  	<a href="#" onclick="setActive('loc')" id="locX">LOCATION</a>
+  	<a href="#" onclick="setActive('deli')" id="deliX">ABOUT</a>
+  </nav>
+  <div>
+  	<div class="text_block text_block_active" id="home">
+  		<img id="img_display" src="https://images.unsplash.com/photo-1631261177958-b68a44d92a56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"/>
+    <div class="allbutton"><BUTTON class="buttonn" onclick="previmg()">PREVIOUS</BUTTON>
+      <BUTTON class="buttonn" onclick="nextImage()">NEXT</BUTTON>
+    </div></div>  
+  	<div class="text_block" id="contact" >
+      <div class="contact_box">
+       <div class="cont__">
+          <img src="https://www.w3schools.com/howto/img_avatar.png">
+          <p><b>RABIN</b></p>
+          <p>PHONE : 983642274</p>
+       </div>
+       <div class="cont__">
+          <img src="https://www.w3schools.com/howto/img_avatar2.png">
+          <p><b>RABINA</b></p>
+          <p>PHONE : 9843554754</p>
+       </div>
+       <div class="cont__">
+          <img src="https://www.w3schools.com/howto/img_avatar.png">
+          <p><b>HARI</b></p>
+          <p>PHONE : 982642273</p>
+       </div>
+       <div class="cont__">
+          <img src="https://www.w3schools.com/howto/img_avatar2.png">
+          <p><b>SABITA</b></p>
+          <p>PHONE : 9883554759</p>
+       </div>
+     </div>
+    </div>
+  	<div class="text_block" id="loc">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114086.59115065106!2d87.19515976187992!3d26.673894227645274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef6c66e80fbfa9%3A0x38094d1a7c974283!2sItahari!5e0!3m2!1sen!2snp!4v1631379621727!5m2!1sen!2snp" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  	<div class="text_block" id="deli"></div>
+  </div>
+  <div class="copy">
+    <div class="right">COPYRIGHT&copy;</div>
+  </div>
+</body>
+</html>
